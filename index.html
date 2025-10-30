@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Vashu Ghetiya - CV</title>
+<link rel="stylesheet" href="cv.css" />
+<style>
+   * {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: 'Segoe UI', sans-serif;
+}
+hr {
+border: none;
+height: 2px;
+background-color: #222;;
+margin: 30px 0;
+opacity: 0.6;
+}
+
+body { 
+    background: #f4f4f4;
+color: #333;
+}
+.container {
+display: flex;
+max-width: 1200px;
+margin: 20px auto;
+background: white;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+flex-wrap: wrap;
+}
+.sidebar {
+background: #123456;
+color: white;
+flex: 1 1 300px;
+padding: 30px 20px;
+}
+.profile-pic img {
+width: 150px;
+height: 150px;
+object-fit: cover;
+border-radius: 50%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.sidebar h3 {
+margin-top: 20px;
+margin-bottom: 10px;
+border-bottom: 1px solid white;
+padding-bottom: 5px;
+font-size: 18px;
+font-weight: bold;
+color: white;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+.sidebar p,
+.sidebar ul {
+font-size: 14px;
+margin-bottom: 10px;
+}
+.sidebar ul {
+list-style: disc inside;
+}
+.main-content {
+flex: 2 1 700px;
+padding: 40px;
+}
+header h1 {
+font-size: 32px;
+font-weight: bold;
+}
+header h1 span {
+color: #123456;
+}
+header h2 {
+font-weight: normal;
+font-size: 20px;
+color: #666;
+margin-top: 5px;
+border-bottom: 2px solid #123456;
+width: fit-content;
+padding-bottom: 4px;
+}
+section {
+margin-top: 30px;
+}
+section h3 {
+color: #123456;
+margin-bottom: 10px;
+text-transform: uppercase;
+}
+section ul {
+list-style: disc;
+padding-left: 20px;
+font-size: 14px;
+}
+.job h4 {
+display: flex;
+justify-content: space-between;
+font-size: 16px;
+color: #222;
+}
+.job ul {
+list-style: disc;
+padding-left: 20px;
+margin-top: 5px;
+}
+.ref {
+margin-top: 10px;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+.container {
+flex-direction: column;
+}
+.main-content {
+padding: 20px;
+}
+.sidebar {
+padding: 20px;
+}
+header h1 {
+    font-size: 26px;
+}
+header h2 {
+font-size: 18px;
+}
+.job h4 {
+flex-direction:column;
+}
+}
+
+</style>
+
+</head>
+
+<body>
+<div class="container">
+<aside class="sidebar">
+<div class="profile-pic">
+<img src="profile.jpg" alt="Vashu Ghetiya" />
+</div>
+<section class="contact">
+<h3>Contact</h3>
+<p> +91 7008334416</p>
+<p> ghetiya.vasu26@gmail.com</p>
+<p> Rajkot, Gujarat</p>
+<p> www.linkedin.com/in/vashu-ghetiya-73454931b</p>
+</section>
+<section class="education">
+<h3>Education</h3>
+<p><strong>High Secondary School: St Paul's School</strong><br />2024<br />12th Board:
+ISC<br />Percentage: 76%</p>
+<p><strong>Marwadi University</strong><br />2025<br />B-Tech in CSE<br />GPA:
+7.5</p>
+</section>
+<section class="skills">
+<h3>Skills</h3>
+<ul>
+<li>Java, C</li>
+<li>HTML, CSS</li>
+<li>Git,GitHub</li>
+</ul>
+</section>
+<section class="languages">
+<h3>Languages</h3>
+<ul>
+<li>English (Fluent)</li>
+<li>Hindi (Fluent)</li>
+<li>Gujarati (Fluent)</li>
+</ul>
+</section>
+</aside>
+<main class="main-content">
+<header>
+<h1>Vashu Ghetiya</h1>
+<h2>B-Tech Student</h2>
+</header>
+<section class="profile">
+<h3>Profile</h3>
+<p>Enthusiastic second-year B-Tech student with a strong foundation in computer science.
+Eager to apply academic knowledge in real-world settings through internships and hands-on
+projects. Quick learner with a proactive and team-oriented mindset.</p>
+</section>
+<hr />
+<section class="projects">
+<h3>Academic Projects</h3>
+<ul>
+<li><strong>Library Management System (C++)</strong> - A simple console-based application
+to manage books and student data.</li>
+<li><strong>Personal Portfolio Website</strong> - Created using HTML, CSS and hosted on
+GitHub Pages.</li>
+</ul>
+</section>
+<hr />
+<section class="certifications">
+<h3>Certifications</h3>
+<ul>
+<li>Python for Everybody - Coursera (2024)</li>
+
+<li>Introduction to Data Science - NPTEL (2025)</li>
+</ul>
+</section>
+<hr />
+<section class="hobbies">
+<h3>Hobbies & Interests</h3>
+<ul>
+<li>Solving coding challenges on LeetCode</li>
+<li>Regularly go to the gym and lift weights to stay fit</li>
+<li>Following tech YouTube channels and podcasts</li>
+</ul>
+</section>
+</main>
+</div>
+</body>
+</html>
+
